@@ -1,0 +1,96 @@
+$color-black:#000;
+$color-gray:#757575;
+.type-70 {
+    margin-top: 20px;
+    background: #f5f7fa;
+
+    .text-content {
+        padding: 80px;
+        font-family: rubik,sans-serif;
+        .tittle {
+            font-size     : 30px;
+            text-transform: capitalize;
+            line-height   : 38px;
+            font-weight   : bold;
+            text-align    : center;
+        }
+
+        .content {
+            text-align: center;
+            margin-top: 20px;
+
+            .tittle-meta {
+                margin-bottom: 10px;
+                margin-top   : 10px;
+                font-size    : 18px;
+                color        : $color-black;
+                font-weight  : bold;
+                font-family  : sans-serif;
+            }
+            .text-desc
+            {
+                color: #757575;
+                font-size: .875rem;
+            }
+
+            .icon {
+                background   : #EAF0FE;
+                color        : #597EF0;
+                border-radius: 50%;
+                width        : 2.4em;
+                height       : 2.4em;
+                line-height  : 2.4em !important;
+                font-size    : 40px;
+                margin-bottom: 20px;
+                display      : inline-block;
+                text-align   : center;
+
+            }
+
+            .icon2 {
+                background   : #F5ECFD;
+                color        : #AF78EF;
+                border-radius: 50%;
+                width        : 2.4em;
+                height       : 2.4em;
+                line-height  : 2.4em !important;
+                font-size    : 40px;
+                margin-bottom: 20px;
+                display      : inline-block;
+                text-align   : center;
+
+            }
+
+            .icon3 {
+                background   : #E5F6FD;
+                color        : #2FB8EF;
+                border-radius: 50%;
+                width        : 2.4em;
+                height       : 2.4em;
+                line-height  : 2.4em !important;
+                font-size    : 40px;
+                margin-bottom: 20px;
+                display      : inline-block;
+                text-align   : center;
+
+            }
+
+            .btn-read {
+                text-decoration: none;
+                padding-top    : 20px;
+                display        : inline-block;
+            }
+
+            .btn-read:hover {
+                color: #febf01;
+                ;
+            }
+        }
+
+
+    }
+
+
+
+
+}

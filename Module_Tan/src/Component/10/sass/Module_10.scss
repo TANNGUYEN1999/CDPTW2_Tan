@@ -1,0 +1,89 @@
+$color-1:#757575;
+$color-black: black;
+$color-blue: #3eaafd;
+.type-10 {
+    margin-top: 20px;
+
+    .view-content {
+        padding    : 0 0 30px;
+        font-family: rubik, sans-serif;
+        line-height: 1.8;
+        color      : $color-1;
+        .content-desc
+        {
+            font-size: .875rem;
+        }
+        .content-tittle {
+            font-size    : 18px;
+            color        : $color-black;
+            margin-bottom: 3px;
+            font-weight  : bold;
+            font-family  : poppins, sans-serif;
+        }
+
+        .icon1 {
+            position      : absolute;
+            background    : #FDEFEC;
+            color         : #FFB0A1;
+            border-radius : 50%;
+            width         : 60%;
+            height        : 80%;
+            text-align    : center;
+            // line-height: 1em!important;
+            font-size     : 40px;
+        }
+
+        .icon2 {
+            position      : absolute;
+            background    : #F5ECFD;
+            color         : #AF78EF;
+            border-radius : 50%;
+            width         : 60%;
+            height        : 80%;
+            text-align    : center;
+            // line-height: 1em!important;
+            font-size     : 40px;
+        }
+
+        .icon3 {
+            position      : absolute;
+            background    : #E5FAF5;
+            color         : #3FD2A8;
+            border-radius : 50%;
+            width         : 60%;
+            height        : 80%;
+            text-align    : center;
+            // line-height: 1em!important;
+            font-size     : 40px;
+        }
+
+        .icon4 {
+            position      : absolute;
+            background    : #FFF4DE;
+            color         : #EFB959;
+            border-radius : 50%;
+            width         : 60%;
+            height        : 80%;
+            text-align    : center;
+            // line-height: 1em!important;
+            font-size     : 40px;
+        }
+
+    }
+
+    .tittle {
+        color         : #3eaafd;
+        font-size     : 12px;
+        margin-bottom : 5px;
+        font-weight   : bold;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+    }
+
+    .tittle-des {
+        font-size  : 30px;
+        max-width  : 680px;
+        font-weight: bold;
+        color      : $color-black;
+    }
+}

@@ -1,0 +1,49 @@
+.type-87 {
+    margin-top: 50px;
+    text-align: center;
+    .tittle {
+        color     : black;
+        top       : 50%;
+        width     : 100%;
+        margin-top: -25px;
+        // z-index: 20;
+        font-size : 20px;
+        text-decoration: none;
+    }
+
+    .post-image {
+        position     : relative;
+        // margin-bottom: 30px;
+        text-align   : center;
+        .img-fluid {
+            cursor: pointer;
+        }
+
+    }
+
+    .content {
+        text-align: center;
+        .btn-readmore {
+            margin-top     : 10px;
+            position       : relative;
+            background     : #3eaafd;
+            text-decoration: none;
+            color          : white;
+            display        : inline-block;
+            padding        : 0 36px 0 26px;
+            line-height    : 32px;
+            border-radius  : 4px;
+            font-size      : 14px;
+            font-weight    : 500;
+
+            svg {
+                position : absolute;
+                right    : 14px;
+                top      : 50%;
+                transform: translateY(-50%);
+
+            }
+
+        }
+    }
+}

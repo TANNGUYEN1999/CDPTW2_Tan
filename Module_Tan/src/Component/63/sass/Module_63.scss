@@ -1,0 +1,90 @@
+$color-white:white;
+$color-blue:#3eaafd;
+.type-63 {
+    margin-top: 20px;
+
+    .content {
+        padding: 30px 0;
+
+        .tittle {
+            font-size     : 28px;
+            position      : relative;
+            padding-bottom: 20px;
+
+        }
+        .tittle::after {
+            content   : "";
+            width     : 50px;
+            height    : 2px;
+            background: $color-blue;
+            left      : 0;
+            bottom    : 0;
+            z-index   : 1;
+            position  : absolute;
+        }
+
+        .text-body {
+            font-size  : 16px;
+            line-height: 30px;
+            margin-bottom: 15px;
+        }
+
+        .btn-acction1 {
+            margin-top     : 10px;
+            position       : relative;
+            background     : $color-blue;
+            text-decoration: none;
+            color          : $color-white;
+            display        : inline-block;
+            padding        : 3px 36px 3px 20px;
+            line-height    : 32px;
+            border-radius  : 4px;
+            font-size      : 14px;
+            font-weight    : 500;
+            margin-right   : 20px;
+
+            svg {
+                position : absolute;
+                right    : 14px;
+                top      : 50%;
+                transform: translateY(-50%);
+
+            }
+        }
+
+        .btn-acction1:hover {
+            background: $color-blue;
+        }
+
+        .btn-acction2 {
+            margin-top     : 10px;
+            position       : relative;
+            background     : #febf01;
+            text-decoration: none;
+            color          : $color-white;
+            display        : inline-block;
+            padding        : 3px 36px 3px 20px;
+            line-height    : 32px;
+            border-radius  : 4px;
+            font-size      : 14px;
+            font-weight    : 500;
+            margin-right   : 10px;
+
+            svg {
+                position : absolute;
+                right    : 14px;
+                top      : 50%;
+                transform: translateY(-50%);
+
+            }
+        }
+
+        .btn-acction2:hover {
+            background: $color-blue;
+        }
+
+    }
+
+
+
+}
