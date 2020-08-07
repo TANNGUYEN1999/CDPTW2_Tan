@@ -1,0 +1,63 @@
+.type-10 {
+  margin-top: 20px; }
+  .type-10 .view-content {
+    padding: 0 0 30px;
+    font-family: rubik, sans-serif;
+    line-height: 1.8;
+    color: #757575; }
+    .type-10 .view-content .content-desc {
+      font-size: 0.875rem; }
+    .type-10 .view-content .content-tittle {
+      font-size: 18px;
+      color: black;
+      margin-bottom: 3px;
+      font-weight: bold;
+      font-family: poppins, sans-serif; }
+    .type-10 .view-content .icon1 {
+      position: absolute;
+      background: #FDEFEC;
+      color: #FFB0A1;
+      border-radius: 50%;
+      width: 60%;
+      height: 80%;
+      text-align: center;
+      font-size: 40px; }
+    .type-10 .view-content .icon2 {
+      position: absolute;
+      background: #F5ECFD;
+      color: #AF78EF;
+      border-radius: 50%;
+      width: 60%;
+      height: 80%;
+      text-align: center;
+      font-size: 40px; }
+    .type-10 .view-content .icon3 {
+      position: absolute;
+      background: #E5FAF5;
+      color: #3FD2A8;
+      border-radius: 50%;
+      width: 60%;
+      height: 80%;
+      text-align: center;
+      font-size: 40px; }
+    .type-10 .view-content .icon4 {
+      position: absolute;
+      background: #FFF4DE;
+      color: #EFB959;
+      border-radius: 50%;
+      width: 60%;
+      height: 80%;
+      text-align: center;
+      font-size: 40px; }
+  .type-10 .tittle {
+    color: #3eaafd;
+    font-size: 12px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 3px; }
+  .type-10 .tittle-des {
+    font-size: 30px;
+    max-width: 680px;
+    font-weight: bold;
+    color: black; }

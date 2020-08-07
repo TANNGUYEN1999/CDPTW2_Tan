@@ -1,0 +1,30 @@
+.type-35 {
+  margin-top: 20px; }
+  .type-35 .icon {
+    padding-right: 10px; }
+  .type-35 .tittle {
+    border-bottom: 1px solid;
+    padding: 10px 0px;
+    color: #242424;
+    font-family: poppins, sans-serif;
+    font-size: 16px; }
+  .type-35 .box {
+    position: relative;
+    padding: 25px; }
+    .type-35 .box .box-content {
+      position: absolute; }
+      .type-35 .box .box-content .item {
+        float: left;
+        margin: 0 10px 10px 0;
+        border: 1px solid;
+        border-radius: 5px;
+        padding: 0 16px;
+        line-height: 34px;
+        text-decoration: none; }
+        .type-35 .box .box-content .item .item-text {
+          color: black; }
+      .type-35 .box .box-content .item:hover {
+        background: #3eaafd;
+        text-decoration: none; }
+        .type-35 .box .box-content .item:hover .item-text {
+          color: white; }

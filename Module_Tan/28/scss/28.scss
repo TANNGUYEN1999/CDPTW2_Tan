@@ -1,0 +1,43 @@
+$color-blue:#3eaafd;
+$color-blue1:blue;
+$color-black:#242424;
+.type-28 {
+    margin-top: 20px;
+
+    .tittle {
+        margin-bottom: 10px;
+        font-size    : 16px;
+        color        : $color-blue;
+        font-weight  : 500;
+        font-family  : poppins, sans-serif;
+    }
+
+    .frm-text {
+        width        : 50%;
+        float        : left;
+        padding-left : 5px;
+        padding-right: 5px;
+        margin       : 0 0 18px;
+        font-size    : 13px;
+
+
+        .text-desc {
+            line-height: 15px;
+           padding-left: 23px;
+            position: absolute;
+            font-family: poppins,sans-serif;
+            color: $color-black;
+            font-weight: 400;
+            
+        }
+    }
+
+    .frm-text:hover {
+        color: $color-blue1;
+
+        .text-desc {
+            color: $color-blue1;
+        }
+    }
+
+}

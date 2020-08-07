@@ -1,0 +1,53 @@
+.type-66 .content {
+  max-width: 600px;
+  margin: 50px auto 10px; }
+.type-66 .logo {
+  background: #2a2e3c;
+  text-align: center;
+  padding: 15px; }
+.type-66 .text-content {
+  padding: 10px 30px 30px;
+  border: 1px solid #dee2e6;
+  border-top: none;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: block; }
+  .type-66 .text-content .text-des {
+    padding: 5px 0;
+    border-bottom: 1px solid #dee2e6;
+    margin-bottom: 10px; }
+    .type-66 .text-content .text-des .menu {
+      color: black;
+      text-decoration: none;
+      padding-right: 10px;
+      text-transform: uppercase;
+      font-size: 13px;
+      font-weight: bold;
+      font-family: sans-serif; }
+      .type-66 .text-content .text-des .menu:hover {
+        color: #0c94fc; }
+      .type-66 .text-content .text-des .menu.a1 {
+        color: #0c94fc; }
+.type-66 .btn-login {
+  background: #0c94fc;
+  color: white;
+  border: none;
+  padding: 7px 26px;
+  border-radius: 5px;
+  margin-top: 10px;
+  display: inline-block;
+  opacity: 0.7;
+  text-decoration: none;
+  font-weight: 500; }
+  .type-66 .btn-login:hover {
+    opacity: 1; }
+.type-66 .text-form .text-meta {
+  margin-bottom: 10px; }
+  .type-66 .text-form .text-meta .text-input {
+    margin-bottom: 10px;
+    font-weight: 500; }
+  .type-66 .text-form .text-meta .frm-text {
+    width: 100%;
+    border: 1px solid #dee2e6;
+    padding: 5px 10px;
+    outline: none; }

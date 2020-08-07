@@ -1,0 +1,46 @@
+.type-74 {
+  margin-top: 20px; }
+  .type-74 .form-text {
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    height: 45px;
+    padding-left: 5px;
+    background-color: #fff;
+    outline: none; }
+  .type-74 .a1 {
+    height: 200px;
+    padding-top: 15px; }
+  .type-74 .btn {
+    text-align: center;
+    display: block; }
+    .type-74 .btn .btn-submit {
+      background: #0c94fc;
+      color: white;
+      border: none;
+      padding: 7px 20px 7px 20px;
+      border-radius: 5px;
+      margin-top: 10px; }
+  .type-74 .tittle {
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+    font-family: poppins, sans-serif;
+    margin-bottom: 20px; }
+  .type-74 .view-content {
+    text-decoration: none;
+    margin-bottom: 20px; }
+    .type-74 .view-content .post-content .post-tittle {
+      font-size: 14px;
+      line-height: 20px;
+      font-family: poppins, sans-serif;
+      display: block;
+      font-weight: 500;
+      color: black; }
+    .type-74 .view-content .post-content .post-des {
+      padding-right: 5px;
+      font-size: 13px; }
+    .type-74 .view-content .post-content .post-date {
+      color: #999;
+      font-size: 13px;
+      font-family: poppins, sans-serif; }

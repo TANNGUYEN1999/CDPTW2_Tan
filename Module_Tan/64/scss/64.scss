@@ -1,0 +1,40 @@
+.type-64 {
+    text-align: center;
+    background: #F5F5F5;
+    padding   : 20px;
+
+    .img-fluid {
+        margin: 20px;
+        width : auto;
+    }
+
+    .swiper-container:hover {
+        .swiper-button-next {
+            opacity: 1;
+
+        }
+
+        .swiper-button-prev {
+            opacity: 1;
+        }
+    }
+
+    .swiper-button-next {
+        opacity  : 0;
+        padding  : 0 20px;
+        font-size: 10px;
+    }
+
+    .swiper-button-prev {
+        opacity  : 0;
+        padding  : 0 20px;
+        font-size: 10px;
+        z-index  : 9;
+
+    }
+
+
+
+
+
+}

@@ -1,0 +1,48 @@
+$color       :#242424;
+$color-blue  :#3eaafd;
+$color-yellow:#febf01;
+
+.type-24 {
+    margin: 30px;
+
+    .text-content {
+        padding    : 50px;
+        font-family: sans-serif;
+        max-width  : 750px;
+        text-align : center;
+        margin     : 0 auto;
+
+
+        .img-ava {
+            text-align   : center;
+            margin-bottom: 20px;
+
+            .img-fluid {
+                width        : 90px;
+                border-radius: 50%;
+            }
+
+        }
+
+        .text-desc {
+            font-size  : 18px;
+            line-height: 32px;
+            font-weight: 500;
+            color      : $color;
+        }
+
+        .name {
+            font-weight  : bold;
+            font-size    : 18px;
+            margin-top   : 15px;
+            color        : $color-blue;
+            margin-bottom: 5px;
+        }
+
+        .job {
+            font-size  : 13px;
+            color      : $color-yellow;
+            font-weight: 500;
+        }
+    }
+}

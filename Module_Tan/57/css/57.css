@@ -1,0 +1,42 @@
+.type-57 {
+  background: #F5F5F5;
+  padding: 80px 0; }
+  .type-57 .content-item {
+    margin-bottom: 30px; }
+  .type-57 .propcess {
+    height: 5px !important;
+    background-color: #bcbcbc !important;
+    position: relative;
+    width: 100%;
+    border-radius: 5px; }
+    .type-57 .propcess .line {
+      position: relative;
+      width: 90%;
+      height: 100%;
+      background-color: blue;
+      transition: width 2s ease-in-out; }
+      .type-57 .propcess .line.black {
+        background-color: black; }
+      .type-57 .propcess .line.yellow {
+        background-color: #f8c44f; }
+      .type-57 .propcess .line.orange {
+        background-color: orange; }
+      .type-57 .propcess .line.long90 {
+        width: 90%; }
+      .type-57 .propcess .line.long70 {
+        width: 70%; }
+      .type-57 .propcess .line.long80 {
+        width: 80%; }
+      .type-57 .propcess .line::after {
+        position: absolute;
+        content: "";
+        height: 11px;
+        width: 11px;
+        border: 2px solid #3eaafd;
+        background: #fff;
+        right: 0;
+        top: -3px;
+        border-radius: 50%; }
+  .type-57 .text-desc {
+    display: flex;
+    justify-content: space-between; }

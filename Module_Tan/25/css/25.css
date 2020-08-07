@@ -1,0 +1,38 @@
+.type-25 {
+  margin-top: 30px; }
+  .type-25 .a1 {
+    margin-bottom: 20px; }
+    .type-25 .a1 .posted-img {
+      position: relative; }
+      .type-25 .a1 .posted-img .text-in {
+        position: absolute;
+        display: block;
+        color: white;
+        bottom: 50px;
+        width: 100%;
+        text-align: center; }
+        .type-25 .a1 .posted-img .text-in .text1-tittle {
+          font-weight: bold;
+          font-family: poppins;
+          line-height: 1.3; }
+          .type-25 .a1 .posted-img .text-in .text1-tittle a {
+            color: white;
+            text-decoration: none; }
+          .type-25 .a1 .posted-img .text-in .text1-tittle a:hover {
+            color: #3eaafd; }
+        .type-25 .a1 .posted-img .text-in .meta {
+          color: rgba(255, 255, 255, 0.6);
+          font-weight: bold; }
+    .type-25 .a1 .text-btn {
+      position: absolute;
+      width: 100%;
+      text-align: center;
+      bottom: 0;
+      left: 0;
+      right: 0; }
+      .type-25 .a1 .text-btn .text-sport {
+        display: inline-block;
+        background: white;
+        padding: 5px 50px;
+        color: black;
+        text-decoration: none; }

@@ -1,0 +1,29 @@
+.type-24 {
+  margin: 30px; }
+  .type-24 .text-content {
+    padding: 50px;
+    font-family: sans-serif;
+    max-width: 750px;
+    text-align: center;
+    margin: 0 auto; }
+    .type-24 .text-content .img-ava {
+      text-align: center;
+      margin-bottom: 20px; }
+      .type-24 .text-content .img-ava .img-fluid {
+        width: 90px;
+        border-radius: 50%; }
+    .type-24 .text-content .text-desc {
+      font-size: 18px;
+      line-height: 32px;
+      font-weight: 500;
+      color: #242424; }
+    .type-24 .text-content .name {
+      font-weight: bold;
+      font-size: 18px;
+      margin-top: 15px;
+      color: #3eaafd;
+      margin-bottom: 5px; }
+    .type-24 .text-content .job {
+      font-size: 13px;
+      color: #febf01;
+      font-weight: 500; }

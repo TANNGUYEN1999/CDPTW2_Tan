@@ -1,0 +1,67 @@
+.type-57 {
+    background: #F5F5F5;
+    padding: 80px 0;
+  .content-item
+  {
+    margin-bottom: 30px;
+  }
+    .propcess {
+      height          : 5px !important;
+      background-color: #bcbcbc !important;
+      position        : relative;
+      width           : 100%;
+      border-radius   : 5px;
+  
+      .line {
+        position        : relative;
+        width           : 90%;
+        height          : 100%;
+        background-color: blue;
+        transition: width 2s ease-in-out;
+        &.black
+        {
+          background-color: black;
+        }
+        &.yellow
+        {
+          background-color: rgb(248, 196, 79);;
+  
+        }
+        &.orange
+        {
+          background-color: orange;
+  
+        }
+        &.long90
+        {
+          width           : 90%;
+        }
+        &.long70
+        {
+          width           : 70%;
+        }
+        &.long80
+        {
+          width           : 80%;
+        }
+        &::after {
+          position  : absolute;
+          content   : "";
+          height    : 11px;
+          width     :11px;
+          border    : 2px solid #3eaafd;
+          background: #fff;
+          right: 0;
+          top: -3px;
+          border-radius: 50%;;
+        }
+      }
+    }
+    .text-desc
+    {
+      display: flex;
+      justify-content: space-between;
+    }
+  
+  
+  }

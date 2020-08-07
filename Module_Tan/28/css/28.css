@@ -1,0 +1,26 @@
+.type-28 {
+  margin-top: 20px; }
+  .type-28 .tittle {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #3eaafd;
+    font-weight: 500;
+    font-family: poppins, sans-serif; }
+  .type-28 .frm-text {
+    width: 50%;
+    float: left;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 0 0 18px;
+    font-size: 13px; }
+    .type-28 .frm-text .text-desc {
+      line-height: 15px;
+      padding-left: 23px;
+      position: absolute;
+      font-family: poppins, sans-serif;
+      color: #242424;
+      font-weight: 400; }
+  .type-28 .frm-text:hover {
+    color: blue; }
+    .type-28 .frm-text:hover .text-desc {
+      color: blue; }

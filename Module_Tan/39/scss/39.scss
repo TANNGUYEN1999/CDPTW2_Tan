@@ -1,0 +1,41 @@
+$color-black: black;
+$color-blue:#3eaafd;
+.type-39 {
+    margin-top: 20px;
+
+    .text-des {
+        padding: 20px 25px;
+        border: 1px solid #dee2e6;
+        border-top: none;
+        display: block;
+        .sport
+        {
+            font-size: 11px;
+        }
+        .post-tittle {
+            a {
+               font-size      : 16px;
+               text-decoration: none;
+               color          : $color-black;
+               font-weight: bold;
+               font-family: poppins,sans-serif;
+              
+           }
+           a:hover
+           {
+               color: $color-blue;
+           }
+       }
+       .post-body
+       {
+           margin-top: 10px;
+         font-size: .875rem;;
+       }
+    }
+    .text-content
+    {
+        
+    }
+
+  
+}
